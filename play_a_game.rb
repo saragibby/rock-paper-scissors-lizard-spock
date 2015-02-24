@@ -47,6 +47,7 @@ puts "\nHi #{player_name}!"
   puts game.result
 end
 
+# Display final score
 puts "\n--------- FINAL SCORE ---------"
 puts "    #{game.player1.name}: #{game.player1.win_count}"
 puts "    #{game.player2.name}: #{game.player2.win_count}"

@@ -10,7 +10,6 @@ class Game
   def initialize(player_name)
     @player1 = Player.new(player_name)
     @player2 = ComputerPlayer.new
-    @round = 1
   end
 
   def result
